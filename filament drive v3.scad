@@ -60,9 +60,9 @@ difference() {
 	
 	//V3 Mount
 	translate([21.75,6.5,-2]) rotate([0,0,0]) cylinder (h=5, r=8.25);
-	translate([21.75,6.5,-7]) rotate([0,0,0]) cylinder (h=5, r=6.25);
+	translate([21.75,6.5,-8]) rotate([0,0,0]) cylinder (h=7, r=6.25);
 	translate([21.75-8,6.5-8,-2]) cube([16, 8, 5]);
-	translate([21.75-6,6.5-7,-7]) cube([12, 7, 5]);
+	translate([21.75-6,6.5-7,-8]) cube([12, 7, 7]);
 	translate([21.75,6.5,3.5]) rotate([90,0,0]) cylinder (h=10, r=1,  $fn=12);
 	
 	//groovemount supports

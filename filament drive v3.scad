@@ -79,6 +79,4 @@ difference() {
 	translate([14.5,14,38]) rotate([0,90,0]) cylinder (h=8, r=4.2, $fn=6);
 	//clamp screw hole
 	translate([15,14,38]) rotate([0,90,0]) cylinder (h=20, r=2, $fn=12);
-	
-	
 }
